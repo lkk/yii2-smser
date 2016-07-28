@@ -1,0 +1,22 @@
+{
+    "name": "lkk/yii2-smser",
+    "description": "Yii2 SMS extension",
+    "keywords": ["yii2", "extension", "sms", "smser", "plugin"],
+    "homepage": "https://github.com/lkk/yii2-smser",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caige",
+            "email": "caige@caige.com",
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lkk\\smser\\": "src/"
+        }
+    }
+}
